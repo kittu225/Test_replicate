@@ -1,0 +1,24 @@
+steps taken by me
+
+checked with Shunned dashboard
+ping test to the discovery
+connected to multiple vpn's no luck
+
+
+
+Local Event Viewer
+wireshark
+IBM Qradar 
+Kbox
+net use t:\\bs-gbg-files password /user: corp\carol
+virus scan
+C$ on local AD
+System Restore
+Sonicwall ACL, source and destination
+Stack repair (before stack repair, make sure to uninstall vpn's installed)
+winsock repair
+temp and cookies
+netstat -aBn 1
+route PRINT
+Ports
+

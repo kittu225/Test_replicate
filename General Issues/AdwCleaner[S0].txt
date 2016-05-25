@@ -1,0 +1,39 @@
+# AdwCleaner v4.102 - Report created 27/10/2015 at 13:28:17
+# Updated 23/11/2014 by Xplode
+# Database : 2015-10-26.2 [Live]
+# Operating System : Windows 7 Ultimate Service Pack 1 (64 bits)
+# Username : dave - DAVEBLOCK7440
+# Running from : C:\Users\dave\Desktop\adwcleaner_4.102.exe
+# Option : Clean
+
+***** [ Services ] *****
+
+
+***** [ Files / Folders ] *****
+
+File Deleted : C:\Users\dave\AppData\Local\Google\Chrome\User Data\Default\local storage\hxxp_www.azlyrics.com_0.localstorage
+File Deleted : C:\Users\dave\AppData\Local\Google\Chrome\User Data\Default\local storage\hxxp_www.azlyrics.com_0.localstorage-journal
+
+***** [ Scheduled Tasks ] *****
+
+
+***** [ Shortcuts ] *****
+
+
+***** [ Registry ] *****
+
+
+***** [ Browsers ] *****
+
+-\\ Internet Explorer v11.0.9600.18057
+
+
+-\\ Google Chrome v46.0.2490.80
+
+
+*************************
+
+AdwCleaner[R0].txt - [1007 octets] - [27/10/2015 13:24:55]
+AdwCleaner[S0].txt - [934 octets] - [27/10/2015 13:28:17]
+
+########## EOF - C:\AdwCleaner\AdwCleaner[S0].txt - [993 octets] ##########

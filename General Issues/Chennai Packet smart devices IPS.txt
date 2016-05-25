@@ -1,0 +1,23 @@
+Pinging pi150_70b3d57b3075.corp.broadsoft.com [1
+:
+Reply from 10.98.8.33: bytes=32 time<1ms TTL=63
+Reply from 10.98.8.33: bytes=32 time<1ms TTL=63
+Reply from 10.98.8.33: bytes=32 time<1ms TTL=63
+Reply from 10.98.8.33: bytes=32 time<1ms TTL=63
+
+
+
+Pinging pi150_70b3d57b3adb.corp.broadsoft.com [10.98.8.30]
+:
+Reply from 10.98.8.30: bytes=32 time<1ms TTL=63
+Reply from 10.98.8.30: bytes=32 time<1ms TTL=63
+Reply from 10.98.8.30: bytes=32 time<1ms TTL=63
+Reply from 10.98.8.30: bytes=32 time<1ms TTL=63
+
+
+Pinging pi150_70b3d57b3a9d.corp.broadsoft.com [10.98.8.40] 
+:
+Reply from 10.98.8.40: bytes=32 time<1ms TTL=63
+Reply from 10.98.8.40: bytes=32 time<1ms TTL=63
+Reply from 10.98.8.40: bytes=32 time<1ms TTL=63
+Reply from 10.98.8.40: bytes=32 time<1ms TTL=63

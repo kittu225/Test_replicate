@@ -1,0 +1,50 @@
+# AdwCleaner v4.102 - Report created 29/12/2015 at 14:47:14
+# Updated 23/11/2014 by Xplode
+# Database : 2015-12-29.1 [Live]
+# Operating System : Windows 7 Ultimate Service Pack 1 (64 bits)
+# Username : vcoquelin - VCOQUELIN-T1700
+# Running from : C:\Users\vcoquelin\Desktop\adwcleaner_4.102.exe
+# Option : Clean
+
+***** [ Services ] *****
+
+
+***** [ Files / Folders ] *****
+
+File Deleted : C:\Users\vcoquelin\AppData\Local\Google\Chrome\User Data\Default\local storage\hxxp_www.azlyrics.com_0.localstorage
+File Deleted : C:\Users\vcoquelin\AppData\Local\Google\Chrome\User Data\Default\local storage\hxxp_www.azlyrics.com_0.localstorage-journal
+File Deleted : C:\Users\vcoquelin\AppData\Local\Google\Chrome\User Data\Default\local storage\hxxp_www.lyricsfreak.com_0.localstorage
+File Deleted : C:\Users\vcoquelin\AppData\Local\Google\Chrome\User Data\Default\local storage\hxxp_www.lyricsfreak.com_0.localstorage-journal
+File Deleted : C:\Users\vcoquelin\AppData\Local\Google\Chrome\User Data\Default\local storage\hxxp_www.metrolyrics.com_0.localstorage
+File Deleted : C:\Users\vcoquelin\AppData\Local\Google\Chrome\User Data\Default\local storage\hxxp_www.metrolyrics.com_0.localstorage-journal
+File Deleted : C:\Users\vcoquelin\AppData\Local\Google\Chrome\User Data\Default\local storage\hxxp_www.lyricsmode.com_0.localstorage
+File Deleted : C:\Users\vcoquelin\AppData\Local\Google\Chrome\User Data\Default\local storage\hxxp_www.lyricsmode.com_0.localstorage-journal
+
+***** [ Scheduled Tasks ] *****
+
+
+***** [ Shortcuts ] *****
+
+
+***** [ Registry ] *****
+
+Key Deleted : HKLM\SOFTWARE\Classes\protector_dll.protectorbho
+Key Deleted : HKLM\SOFTWARE\Classes\protector_dll.protectorbho.1
+
+***** [ Browsers ] *****
+
+-\\ Internet Explorer v11.0.9600.18098
+
+
+-\\ Mozilla Firefox v30.0 (en-US)
+
+
+-\\ Google Chrome v47.0.2526.106
+
+
+*************************
+
+AdwCleaner[R0].txt - [2017 octets] - [29/12/2015 14:07:17]
+AdwCleaner[S0].txt - [1958 octets] - [29/12/2015 14:47:14]
+
+########## EOF - C:\AdwCleaner\AdwCleaner[S0].txt - [2018 octets] ##########

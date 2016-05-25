@@ -1,0 +1,227 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\krishna.j>ping -a 80.76.192.189
+
+Pinging vpn2bft.broadsoft.com [80.76.192.189] with 32 bytes of data:
+Reply from 80.76.192.189: bytes=32 time=164ms TTL=238
+Reply from 80.76.192.189: bytes=32 time=164ms TTL=238
+Reply from 80.76.192.189: bytes=32 time=164ms TTL=238
+Reply from 80.76.192.189: bytes=32 time=164ms TTL=238
+
+Ping statistics for 80.76.192.189:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 164ms, Maximum = 164ms, Average = 164ms
+
+C:\Users\krishna.j>ping -a 206.132.246.2
+
+Pinging 206.132.246.2 with 32 bytes of data:
+Reply from 206.132.246.2: bytes=32 time=252ms TTL=242
+Reply from 206.132.246.2: bytes=32 time=252ms TTL=242
+Reply from 206.132.246.2: bytes=32 time=252ms TTL=242
+Reply from 206.132.246.2: bytes=32 time=252ms TTL=242
+
+Ping statistics for 206.132.246.2:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 252ms, Maximum = 252ms, Average = 252ms
+
+C:\Users\krishna.j>tracert vpn2bft.broadsoft.com
+
+Tracing route to vpn2bft.broadsoft.com [80.76.192.189]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms     1 ms  10.11.250.1
+  2     1 ms     1 ms     1 ms  10.11.252.5
+  3     2 ms     1 ms     1 ms  115.119.145.33.static-bangalore.tcisl.net.in [11
+5.119.145.33]
+  4     9 ms     9 ms     9 ms  121.240.2.42.static-mumbai.vsnl.net.in [121.240.
+2.42]
+  5     8 ms     8 ms     8 ms  121.240.2.45.static-mumbai.vsnl.net.in [121.240.
+2.45]
+  6    26 ms    26 ms    26 ms  172.31.16.173
+  7   154 ms   153 ms   153 ms  if-2-590.tcore2.l78-london.as6453.net [80.231.13
+1.113]
+  8   153 ms   154 ms   153 ms  if-2-2.tcore1.l78-london.as6453.net [80.231.131.
+2]
+  9   151 ms   151 ms   151 ms  if-17-2.tcore1.ldn-london.as6453.net [80.231.130
+.130]
+ 10   152 ms   154 ms   152 ms  be3040.ccr21.lon01.atlas.cogentco.com [130.117.1
+5.177]
+ 11   154 ms   154 ms   154 ms  be2350.ccr41.lon13.atlas.cogentco.com [154.54.39
+.185]
+ 12   162 ms   162 ms   162 ms  be2526.rcr21.dub01.atlas.cogentco.com [154.54.39
+.14]
+ 13   166 ms   165 ms   166 ms  be2530.rcr21.dub02.atlas.cogentco.com [130.117.2
+.230]
+ 14   160 ms   160 ms   159 ms  be2041.nr11.b020478-0.dub02.atlas.cogentco.com [
+154.25.1.150]
+ 15   170 ms   169 ms   169 ms  149.6.4.34
+ 16   186 ms   164 ms   167 ms  172.16.0.11
+ 17   168 ms   167 ms   167 ms  gi0-2.br1.heron.bytel.net.uk [80.76.201.189]
+ 18   164 ms   163 ms   163 ms  80.95.191.17
+ 19   170 ms   170 ms   170 ms  bs-bft-sr1-gi1-0-1.net.broadsoft.com [80.95.189.
+138]
+ 20   164 ms   164 ms   164 ms  vpn2bft.broadsoft.com [80.76.192.189]
+
+Trace complete.
+
+C:\Users\krishna.j>tracert vpn2bft.broadsoft.com
+
+Tracing route to vpn2bft.broadsoft.com [80.76.192.189]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms     1 ms  10.11.250.1
+  2     1 ms     1 ms     1 ms  10.11.252.5
+  3    12 ms     1 ms     1 ms  115.119.145.33.static-bangalore.tcisl.net.in [11
+5.119.145.33]
+  4     9 ms     9 ms     9 ms  121.240.2.42.static-mumbai.vsnl.net.in [121.240.
+2.42]
+  5     8 ms     8 ms     8 ms  121.240.2.45.static-mumbai.vsnl.net.in [121.240.
+2.45]
+  6    26 ms    26 ms    26 ms  172.31.16.173
+  7   153 ms   154 ms   154 ms  if-2-590.tcore2.l78-london.as6453.net [80.231.13
+1.113]
+  8   154 ms   154 ms   153 ms  if-2-2.tcore1.l78-london.as6453.net [80.231.131.
+2]
+  9   151 ms   152 ms   151 ms  if-17-2.tcore1.ldn-london.as6453.net [80.231.130
+.130]
+ 10   152 ms   152 ms   152 ms  be3040.ccr21.lon01.atlas.cogentco.com [130.117.1
+5.177]
+ 11   154 ms   154 ms   154 ms  be2350.ccr41.lon13.atlas.cogentco.com [154.54.39
+.185]
+ 12   162 ms   162 ms   163 ms  be2526.rcr21.dub01.atlas.cogentco.com [154.54.39
+.14]
+ 13   165 ms   166 ms   166 ms  be2530.rcr21.dub02.atlas.cogentco.com [130.117.2
+.230]
+ 14   160 ms   160 ms   160 ms  be2041.nr11.b020478-0.dub02.atlas.cogentco.com [
+154.25.1.150]
+ 15   169 ms   170 ms   170 ms  149.6.4.34
+ 16   166 ms   164 ms   164 ms  172.16.0.11
+ 17   168 ms   167 ms   167 ms  gi0-2.br1.heron.bytel.net.uk [80.76.201.189]
+ 18   167 ms   167 ms   166 ms  80.95.191.17
+ 19   170 ms   170 ms   170 ms  bs-bft-sr1-gi1-0-1.net.broadsoft.com [80.95.189.
+138]
+ 20   164 ms   164 ms   164 ms  vpn2bft.broadsoft.com [80.76.192.189]
+
+Trace complete.
+
+C:\Users\krishna.j>ping -a vpn2bft.broadsoft.com
+
+Pinging vpn2bft.broadsoft.com [80.76.192.189] with 32 bytes of data:
+Reply from 80.76.192.189: bytes=32 time=164ms TTL=238
+Reply from 80.76.192.189: bytes=32 time=164ms TTL=238
+Reply from 80.76.192.189: bytes=32 time=164ms TTL=238
+Reply from 80.76.192.189: bytes=32 time=164ms TTL=238
+
+Ping statistics for 80.76.192.189:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 164ms, Maximum = 164ms, Average = 164ms
+
+C:\Users\krishna.j>nslookup
+Default Server:  bs-gbg-ad2008.corp.broadsoft.com
+Address:  10.1.1.6
+
+> vpn2bft.broadsoft.com
+Server:  bs-gbg-ad2008.corp.broadsoft.com
+Address:  10.1.1.6
+
+Non-authoritative answer:
+Name:    vpn2bft.broadsoft.com
+Address:  80.76.192.189
+
+>
+C:\Users\krishna.j>nslookup 10.98.8.1
+Server:  bs-gbg-ad2008.corp.broadsoft.com
+Address:  10.1.1.6
+
+*** bs-gbg-ad2008.corp.broadsoft.com can't find 10.98.8.1: Non-existent domain
+
+C:\Users\krishna.j>ping -a 10.98.8.1
+
+Pinging 10.98.8.1 with 32 bytes of data:
+Reply from 10.98.8.1: bytes=32 time=501ms TTL=254
+Reply from 10.98.8.1: bytes=32 time=500ms TTL=254
+Reply from 10.98.8.1: bytes=32 time=500ms TTL=254
+Reply from 10.98.8.1: bytes=32 time=500ms TTL=254
+
+Ping statistics for 10.98.8.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 500ms, Maximum = 501ms, Average = 500ms
+
+C:\Users\krishna.j>nslookup 10.98.8.1
+Server:  bs-gbg-ad2008.corp.broadsoft.com
+Address:  10.1.1.6
+
+*** bs-gbg-ad2008.corp.broadsoft.com can't find 10.98.8.1: Non-existent domain
+
+C:\Users\krishna.j>ping -a 172.16.0.11
+
+Pinging 172.16.0.11 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 172.16.0.11:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+Control-C
+^C
+C:\Users\krishna.j>ping -a desktop.broadsoft.com
+
+Pinging desktop.broadsoft.com [10.4.0.37] with 32 bytes of data:
+Reply from 10.4.0.37: bytes=32 time=231ms TTL=128
+
+Ping statistics for 10.4.0.37:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 231ms, Maximum = 231ms, Average = 231ms
+Control-C
+^C
+C:\Users\krishna.j>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

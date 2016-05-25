@@ -1,0 +1,9 @@
+1. Login to your Gmail account (regular email at Gmail.google.com)
+2. Click in the gear icon at the top right side of the screen
+3. Click in "Settings"
+4. Click in the "Filters" tab
+5. Click in "Create a new filter"
+6. In the "To" field please add your own email address (i.e. if you are inside of your email account, me@mydomain.com, you need to put your address me@mydomain.com)
+6. Click in "Create filter with this search"
+7. Click in "Never send it to Spam"
+8. Click in "Create filter"

